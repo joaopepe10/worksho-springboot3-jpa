@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import javax.sql.DataSource;
 import java.util.zip.DataFormatException;
 
-@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
+@SpringBootApplication
 public class CursospringApplication {
 
 	public static void main(String[] args) {
